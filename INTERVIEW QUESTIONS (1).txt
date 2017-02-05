@@ -1,0 +1,303 @@
+                                                               JAVA INTERVIEW QUESTIONS:
+                                                               -------------------------
+
+PROGRAMS:
+---------
+
+1.write a program to convert the given string into integer without using parseInt(String str)method?
+
+2.what is string pool?what is use of string pool concept in java ?what is difference between creating string object using new operator and without new operator?
+   how to convert string heap object into pooled object?
+3.write a program for spillting string into multiple tokens without using spilt()method?
+   
+   Ex:String str=javaspringjava;
+         public String[] mySpilit(String s,char delimeter){
+         
+            //write your own spilit logic//
+         }
+4.Identify the duplicates elements in array and print it?
+
+5.fibonacci series using recursive?
+
+6.write a program to find numbers in given string and add them?
+    String ss=java9j3j2i88
+
+   output=9+3+8+8+2=30
+
+7.how to sort employes list based on names in desending order?
+
+8.what is cyclicbarrier and countdownlatch in java explain?
+
+9.write a program to find names who have same salary?
+
+10.write a program to find a second highest element and lowest element in given array?
+
+11.write a bubble sort program?
+
+12.write a program to identify duplicate elements and print them as desending order?
+  
+ex:String[] str={hari,balaji,hari,hari,ravi,ravi};
+
+output:hari---->3
+       ravi----->2
+      balaji----->1
+
+13.write a program to find and display word with occurance in a given file?
+
+14.in your project where you have used threads and collections ?give me the complete description?
+
+15.write a program to display the unique objects and eliminate the duplicates?
+
+      Ex:Employee class
+
+
+        Employee has 5 objects in that objects 2 have same state then we have to store one object and displays the 4 objects data.
+
+
+16.write a singleton program in all possiblities?
+
+17.write a own linkedlist program?
+
+18.write a palindrome program  using recursive algorthim?
+
+19.what is contract between equals and hashcode and give me the program?
+
+20.write a deadlock program?
+
+
+
+
+CORE JAVA QUESTIONS:
+--------------------
+
+1.what is compile and runtime polymorphism?
+
+2.explain the hashing machanism?
+
+3.what is difference between vector and arraylist?
+
+4.what is difference between arraylist and linkedlist?
+
+5.what is the sorted collection classes in java?
+
+6.what is difference betwwen hashmap and hashtable?
+
+7.what is difference between comparator and comparable?
+
+8.what is difference between enumerator,iterator,listiterator?
+
+9.what is difference between collection and collections in java?
+
+10.what is difference between collection and map?
+
+11.what would happen if you add duplicate element in set and hashmap(key) ?
+
+12.what is difference between concurrenthashmap and hashtable?
+
+13.what is difference between failfast and failsafe in java?
+
+14.how many ways we can create the threads in java?
+
+15.explain the producerconsumer problem in java?
+
+16.how many ways we can make our data as thread safe?
+
+17.difference between thread and process?
+
+18.what is the use of threadlocal and volatile in java?
+
+19.thread life cycle?
+
+20.what is other way of thread communication without using wait,notify,notifyall?
+
+21.what is the difference betwwen sleep and join,yield?
+
+22.draw the Exception hireracy ?
+
+23.what is difference between Exception and error?
+
+24.what is the order of catch blocks if u have multiple catch blocks?
+
+25.what happend if u define catch blocks in super,subclass order?
+
+26.what is Exception propogation?
+
+27.what happend if you get exception means give me the internal process?
+
+28.how can u prevent outofmemoryexception ?
+
+29.what is difference between throws and throw keyword in java?
+
+30.how to create custiomized exceptions in java?
+
+31.what happend if u get the exception in try block give the flow?
+
+32.what is difference between string,stringbuffer,stringbuilder?
+
+33.what is difference between immutable and final object?
+
+34.how can u create the immutable object ?what is the use of immutable object?
+
+35.what is the purpose of jvm?
+
+36.what is the constructor chaining?
+
+37.what is serilization in java?
+
+38.what is difference between abstract class and interface?
+
+39.how many ways to crate objects in java?
+
+40. what is difference between java1.5,1.6.1.7,1.8?
+
+41.what is the executor framework in java ?what is the purpose?
+
+
+
+
+SERVLETS&JSP :
+--------------
+
+1.what is difference between forward ,include and sendredirect methods?
+
+2.what is difference between servletconfig and servletcontext?
+
+3.what do mean by servlet chaining?
+
+4.how can we make our request as stateful?
+
+5.what is difference between httpservlet and genericservlet?
+
+6.what do mean by loadonstartup?
+
+7.servlet lifecycle?
+
+8.what is difference between page and pagecontext?
+
+9.how many implict objects are there in jsp?
+
+10.when will be the destroy method executed?
+
+
+
+SPRING:
+-------
+
+1.what is spring and why u go for spring?
+
+2.what is ioc?
+
+3.what is difference between setter and constructor injection?
+
+4.what is autowiring?
+
+5.spring lifecycle?
+
+6.Spring AOP(frequently they asked spring AOP questions)?
+
+7.spring mvc flow?
+
+8.how many scopes in spring and describe?
+
+9.how many modules are there in spring?
+
+
+HIBERNATE:
+----------
+
+1.how many states in hibernate?
+
+2.what is difference between get and load methods?
+
+3.what is difference between session and sessionfactory in java?
+
+4.one2one,one2many,many2one,many2many in hibernate?
+
+5.cache in hibernate?
+
+6.inherinetance in hibernate?
+
+7.what is difference between hql,named sql,creteria and native sql?
+
+8.what is difference between lazyloading and eagerloading in hibernate?
+
+9.what is cascadestyles in hibernate and how many cascade types and explain?
+
+10.what is difference between opensession and getcurrentsession methods in hibernate?
+
+
+WEBSERVICE AND PROJECT MANAGER QUESTIONS:
+-----------------------------------------
+1.Explain the internal process when request come to webservice?
+
+2.Explain the message exchanging formats ?
+
+3.which mef(message exchanging formats) r u using in your project ?
+  
+  if you say document wrapped they are asking why you are using that one and why u not using remaining one's.
+
+4.which java version r u using?
+
+5.most of times they asking versions of technologies what u r put in your resume?
+
+6.which java binding r u using?
+
+      if you say jax-b why you using jax-b explain?
+
+7.Explain the project architecture?
+
+8.what is your daily activities in your company?
+
+9.which ticketing tool r u used in your roject?
+
+10.which methodoly r u following in your company?
+
+11.how do you get the code or who will assign the code?
+
+12.how the testers assign the bugs to you?
+
+13.how do you manage the session in web service?
+
+14.how do you authenticate the user in webservice?which security model r u following in your project explain?
+
+15.In which server you have stored the username and password of user?
+ 
+     iam saying eldope servers.so they are asking y u using that one explain?
+
+16.how do u integrate the spring with webservice?
+
+17.how u applied the transaction in your project?
+
+18.what is difference between sax and dom?
+
+19.which version controling r u used in your project?
+
+20.how can u gather the requirements?
+
+21.why u using spring in your project?
+
+22.write the web.xml in your project?
+
+23.why u configure lister in web.xml ?what is the use?
+
+24.what is the wsdl?how many elements r there in wsdl?
+
+25.what is the endpoint in webservice?how many endpoints r there in webservice?which one r u using in project ?why using this is only?
+
+26.difference between restful and soap webservices?
+
+27.how many approach r u there to develop the webservice?which one r u following?
+
+   if u say contractfirst why r u using contractfirst approach and what benifits r u getting if are using contractfirst?
+
+28.other than coding what u did in your project?
+
+29.how do u test your code?
+
+30.what is difference functional testing and integration testing?
+
+31.how the code move from development env to production env?
+
+32.write the test code for authenticate the user by using junit?
+
+33.how do u chech code quality in you project?which tool are using ?
